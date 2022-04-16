@@ -23,6 +23,7 @@ ul{
         width: 80%;
     }
 }
+
 .sec-1 h1{
     font-size: 30px;
     margin-bottom: 10px;
@@ -127,15 +128,18 @@ button{
 }
 footer{
     background-color: grey;
+    padding: 20px 0px;
+
+
+}
+footer div{
     display: flex;
     justify-content: space-between;
-    align-items:center;
-padding: 10px 20px;
-
+    align-items: center;
 }
 footer h1{
 
-    font-size: 20px;
+    font-size: 14px;
 }
 nav{
     display: none;
@@ -147,12 +151,11 @@ nav{
   }
 
  .sec-1-1{
-     width: 60%;
-     /* padding-left: 50px;
-     padding-right: 50px; */
+     width: 80%;
+ 
  }
  .sec-1-1 h1{
-     font-size: 38px;
+     font-size: 25px;
  }
  .icons{
      display: flex;
@@ -168,8 +171,7 @@ nav{
      display: flex;
      justify-content: space-between;
      align-items: center;
-        padding-left: 50px;
-     padding-right: 50px;
+     
  }
  .mid-sec-1 div{
      width: 47%;
@@ -178,8 +180,7 @@ nav{
      display: flex;
      justify-content: space-between;
      align-items: center;
-         padding-left: 50px;
-     padding-right: 50px;
+  
  }
  .mini-sec-2 div{
      width: 47%;
@@ -188,12 +189,9 @@ nav{
      margin-top: 0%;
      
  }
- .sec-3{
-           padding-left: 50px;
-     padding-right: 50px;
+ .sec-3 p{
+width: 50%;
  }
- .sec-3 div{
-     width: 50%;
- }
+ 
     
 }
