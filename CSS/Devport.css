@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.big_wrapper
+.sec-1{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+ 
+}
+.sec-1 h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#hamb{
+    display: none;
+}
+.hamburg{
+    float: right;
+    margin-top: 10px;
+}
+header h1{
+    display: inline-block;
+}
+.sec-1 p{
+    margin: 10px 0px;
+    color: gray;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.icons{
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+.icons div{
+   
+    padding: 10px;
+    width: 150%;
+}
+.right{
+    padding-left: 10px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+.sec-2{
+        padding: 50px 20px;
+        background-color: rgba(128, 128, 128, 0.911);
+}
+span{
+    color: white;
+ 
+}
+span h2{
+   font-size: 30px;
+}
+.mini-sec-2 p{
+    margin-top: 20px;
+    color: whitesmoke;
+
+}
+.mini-min{
+    margin-top: 70px;
+}
+
+.sec-3{
+    background-color: black;
+    color: gray;
+     padding: 90px 20px;
+}
+.sec-3 h2{
+    color: white;
+    margin-bottom: 10px;
+}
+button{
+    background-color: gold;
+    padding: 10px 20px;
+    border:0px solid gold;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+padding: 10px 20px;
+
+}
+footer h1{
+
+    font-size: 20px;
+}
+nav{
+    display: none;
+}
+@media screen and (min-width:992px){
+  .hamburg{
+      display: none;
+  }
+
+ .sec-1-1{
+     width: 60%;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+ .sec-1-1 h1{
+     font-size: 38px;
+ }
+ .icons{
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+ }
+ .third{
+     border: 2px solid yellow;
+     width: 950%;
+     /* padding: 30px; */
+ }
+ .mid-sec-1{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+        padding-left: 50px;
+     padding-right: 50px;
+ }
+ .mid-sec-1 div{
+     width: 47%;
+ }
+ .mini-sec-2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+         padding-left: 50px;
+     padding-right: 50px;
+ }
+ .mini-sec-2 div{
+     width: 47%;
+ }
+ .mini-min{
+     margin-top: 0%;
+     
+ }
+ .sec-3{
+           padding-left: 50px;
+     padding-right: 50px;
+ }
+ .sec-3 div{
+     width: 50%;
+ }
+    
+}
