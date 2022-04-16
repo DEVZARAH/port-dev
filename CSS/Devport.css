@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -18,9 +19,13 @@ ul{
     margin: 0 auto;
 
 }
+.logo img{
+    padding-left: 10px;
+}
 @media screen and (min-width:767px) {
     .wrapper{
         width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -51,6 +56,7 @@ header{
 }
 header h1{
     display: inline-block;
+    color: gray;
 }
 .sec-1 p{
     margin: 10px 0px;
@@ -80,9 +86,7 @@ header h1{
     
 }
 
-.right{
-    padding-left: 10px;
-}
+
 h2{
     font-size: 30px;
 }
@@ -149,24 +153,54 @@ nav{
   .hamburg{
       display: none;
   }
+  header div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  .wrapper{
+      width: 80%;
+      margin: 0 auto;
+  }
+  nav{
+      display: flex;
+      flex-direction: row;
+  }
+.navss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    padding-left: 50px;
+      color: gray;
+}
+.head{
+    margin-top: 0;
+    margin-left: 200px;
+}
 
  .sec-1-1{
      width: 80%;
  
  }
  .sec-1-1 h1{
-     font-size: 25px;
+     font-size: 40px;
+     width: 49%;
+   
+ }
+ .sec-1-1 p{
+     width: 40%;
+     padding-bottom: 10px;
+     /* margin-bottom: 10px; */
  }
  .icons{
      display: flex;
      justify-content: space-between;
      align-items: baseline;
  }
- .third{
-     border: 2px solid yellow;
-     width: 950%;
-     /* padding: 30px; */
- }
+
  .mid-sec-1{
      display: flex;
      justify-content: space-between;
