@@ -10,17 +10,36 @@ ul{
 .sec-1{
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding-bottom: 30px;
  
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+
+}
+@media screen and (min-width:767px) {
+    .wrapper{
+        width: 80%;
+    }
 }
 .sec-1 h1{
     font-size: 30px;
     margin-bottom: 10px;
+    width: 80%;
+}
+@media screen and (min-width:767px) {
+    .sec-1 h1{
+        width: 100%;
+        font-size: 3em;
+    }
+    
 }
 header{
     background-color: black;
     color: white;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 #hamb{
     display: none;
@@ -39,14 +58,27 @@ header h1{
     margin-bottom: 40px;
 }
 .icons{
-    padding: 20px 30px;
-    margin-bottom: 30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(2,1fr) ;
+    padding-bottom: 50px;
 }
-.icons div{
-   
-    padding: 10px;
-    width: 150%;
+@media screen and (min-width:767px) {
+    .icons{
+       grid-template-columns: repeat(3,1fr);
+       padding-bottom: 70px;
+    }
+    
 }
+@media screen and (min-width:1024px) {
+    .icons{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+    }
+    
+}
+
 .right{
     padding-left: 10px;
 }
@@ -57,7 +89,7 @@ p{
     font-size: 18px;
 }
 .sec-2{
-        padding: 50px 20px;
+        padding: 50px 0px;
         background-color: rgba(128, 128, 128, 0.911);
 }
 span{
@@ -79,7 +111,7 @@ span h2{
 .sec-3{
     background-color: black;
     color: gray;
-     padding: 90px 20px;
+     padding: 90px 0px;
 }
 .sec-3 h2{
     color: white;
@@ -108,15 +140,16 @@ footer h1{
 nav{
     display: none;
 }
-@media screen and (min-width:992px){
+
+@media screen and (min-width:1024px){
   .hamburg{
       display: none;
   }
 
  .sec-1-1{
      width: 60%;
-     padding-left: 50px;
-     padding-right: 50px;
+     /* padding-left: 50px;
+     padding-right: 50px; */
  }
  .sec-1-1 h1{
      font-size: 38px;
