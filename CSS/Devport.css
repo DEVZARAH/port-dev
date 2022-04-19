@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul {
   list-style: none;
@@ -118,7 +119,7 @@ button {
   padding: 10px 20px;
   border: 0px solid gold;
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
 }
 footer {
