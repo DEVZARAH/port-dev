@@ -1,231 +1,212 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-.big_wrapper
-.sec-1{
-    background-color: black;
-    color: white;
-    padding-bottom: 30px;
- 
+.big_wrapper .sec-1 {
+  background-color: black;
+  color: white;
+  padding-bottom: 30px;
 }
-.wrapper{
-    width: 90%;
-    margin: 0 auto;
-
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
-.logo img{
-    padding-left: 10px;
+.logo img {
+  padding-left: 10px;
 }
-@media screen and (min-width:767px) {
-    .wrapper{
-        width: 80%;
-        margin: 0 auto;
-    }
-}
-
-.sec-1 h1{
-    font-size: 30px;
-    margin-bottom: 10px;
+@media screen and (min-width: 767px) {
+  .wrapper {
     width: 80%;
+    margin: 0 auto;
+  }
 }
-@media screen and (min-width:767px) {
-    .sec-1 h1{
-        width: 100%;
-        font-size: 3em;
-    }
-    
+
+.sec-1 h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  width: 80%;
 }
-header{
-    background-color: black;
-    color: white;
-    padding-bottom: 20px;
-    padding-top: 20px;
+@media screen and (min-width: 767px) {
+  .sec-1 h1 {
+    width: 100%;
+    font-size: 3em;
+  }
 }
-#hamb{
-    display: none;
+header {
+  background-color: black;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-.hamburg{
-    float: right;
-    margin-top: 10px;
+#hamb {
+  display: none;
 }
-header h1{
-    display: inline-block;
-    color: gray;
+.hamburg {
+  float: right;
+  margin-top: 10px;
 }
-.sec-1 p{
-    margin: 10px 0px;
-    color: gray;
-    line-height: 20px;
-    margin-bottom: 40px;
+header h1 {
+  display: inline-block;
+  color: gray;
 }
-.icons{
-    display: grid;
-    gap: 10px;
-    grid-template-columns:repeat(2,1fr) ;
-    padding-bottom: 50px;
+.sec-1 p {
+  margin: 10px 0px;
+  color: gray;
+  line-height: 20px;
+  margin-bottom: 40px;
 }
-@media screen and (min-width:767px) {
-    .icons{
-       grid-template-columns: repeat(3,1fr);
-       padding-bottom: 70px;
-    }
-    
+.icons {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 50px;
 }
-@media screen and (min-width:1024px) {
-    .icons{
+@media screen and (min-width: 767px) {
+  .icons {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 70px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+}
+
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 18px;
+}
+.sec-2 {
+  padding: 50px 0px;
+  background-color: rgba(128, 128, 128, 0.911);
+}
+span {
+  color: white;
+}
+span h2 {
+  font-size: 30px;
+}
+.mini-sec-2 p {
+  margin-top: 20px;
+  color: whitesmoke;
+}
+.mini-min {
+  margin-top: 70px;
+}
+
+.sec-3 {
+  background-color: black;
+  color: gray;
+  padding: 90px 0px;
+}
+.sec-3 h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+button {
+  background-color: gold;
+  padding: 10px 20px;
+  border: 0px solid gold;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+footer {
+  background-color: grey;
+  padding: 20px 0px;
+}
+footer div {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 100px;
-    }
-    
+  align-items: center;
+}
+footer h1 {
+  font-size: 14px;
+}
+nav {
+  display: none;
 }
 
-
-h2{
-    font-size: 30px;
-}
-p{
-    font-size: 18px;
-}
-.sec-2{
-        padding: 50px 0px;
-        background-color: rgba(128, 128, 128, 0.911);
-}
-span{
-    color: white;
- 
-}
-span h2{
-   font-size: 30px;
-}
-.mini-sec-2 p{
-    margin-top: 20px;
-    color: whitesmoke;
-
-}
-.mini-min{
-    margin-top: 70px;
-}
-
-.sec-3{
-    background-color: black;
-    color: gray;
-     padding: 90px 0px;
-}
-.sec-3 h2{
-    color: white;
-    margin-bottom: 10px;
-}
-button{
-    background-color: gold;
-    padding: 10px 20px;
-    border:0px solid gold;
-    margin-top: 20px;
-    font-size: 15px;
-    font-weight: bold;
-}
-footer{
-    background-color: grey;
-    padding: 20px 0px;
-
-
-}
-footer div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-footer h1{
-
-    font-size: 14px;
-}
-nav{
+@media screen and (min-width: 1024px) {
+  .hamburg {
     display: none;
-}
-
-@media screen and (min-width:1024px){
-  .hamburg{
-      display: none;
   }
-  header div{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-  }
-  .wrapper{
-      width: 80%;
-      margin: 0 auto;
-  }
-  nav{
-      display: flex;
-      flex-direction: row;
-  }
-.navss{
+  header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-a{
+  }
+
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .navss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
     padding-left: 50px;
-      color: gray;
-}
-.head{
+    color: gray;
+  }
+  .head {
     margin-top: 0;
-    margin-left: 200px;
-}
+    margin-left: 50px;
+  }
 
- .sec-1-1{
-     width: 80%;
- 
- }
- .sec-1-1 h1{
-     font-size: 40px;
-     width: 49%;
-   
- }
- .sec-1-1 p{
-     width: 40%;
-     padding-bottom: 10px;
-     /* margin-bottom: 10px; */
- }
- .icons{
-     display: flex;
-     justify-content: space-between;
-     align-items: baseline;
- }
+  .sec-1-1 {
+    width: 80%;
+  }
+  .sec-1-1 h1 {
+    font-size: 40px;
+    width: 49%;
+  }
+  .sec-1-1 p {
+    width: 40%;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 
- .mid-sec-1{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     
- }
- .mid-sec-1 div{
-     width: 47%;
- }
- .mini-sec-2{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-  
- }
- .mini-sec-2 div{
-     width: 47%;
- }
- .mini-min{
-     margin-top: 0%;
-     
- }
- .sec-3 p{
-width: 50%;
- }
- 
-    
+  .mid-sec-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mid-sec-1 div {
+    width: 47%;
+  }
+  .mini-sec-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mini-sec-2 div {
+    width: 47%;
+  }
+  .mini-min {
+    margin-top: 0%;
+  }
+  .sec-3 p {
+    width: 50%;
+  }
 }
